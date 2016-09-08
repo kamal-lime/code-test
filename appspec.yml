@@ -6,6 +6,6 @@ hooks:
 
  BeforeInstall:
 
-   - location: scripts/startup.sh
+   - location: code-test/startup.sh
 
      runas: root
