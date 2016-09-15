@@ -2,10 +2,7 @@ version: 0.0
 
 os: linux
 
-hooks:
-
- BeforeInstall:
-
-   - location: startup.sh
-
+files:
+  - source: /
+    destination: /var/www/html/
      runas: root
