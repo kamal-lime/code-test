@@ -1,2 +1,3 @@
-aws s3 cp s3://koovs-java-test/index.html /tmp
+cd /tmp/
+wget https://s3-ap-southeast-1.amazonaws.com/koovs-java-test/index.html
 sudo mv /tmp/index.html /var/www/html/
