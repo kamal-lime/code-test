@@ -1,8 +1,13 @@
 version: 0.0
-
 os: linux
-
 files:
   - source: /
-    destination: /mnt
-     runas: root
+    destination: /home/ubuntu/joulroad/admin-portal
+permissions:
+  - object: /home/ubuntu/joulroad/admin-portal
+    pattern: "**"
+    owner: www-data
+    group: www-data
+    type:
+      - directory
+      - file
